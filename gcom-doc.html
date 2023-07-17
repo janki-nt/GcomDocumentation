@@ -81,6 +81,8 @@
                     <li class="nav-item"><a class="nav-link scrollto" href="#addCustomer">Add Customer</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#editCustomer">Edit Customer</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#exportCustomer">Export Customer</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#deleteCustomer">Delete Customer</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#viewCustomer">View Customer</a></li>
                     <li class="nav-item section-title"><a class="nav-link scrollto" href="#course">Course</a></li>
                     <li class="nav-item section-title"><a class="nav-link scrollto"
                             href="#subscription">Subscription</a></li>
@@ -259,31 +261,8 @@
                         <p>The Customer module allows admin to manage customer details.
                             Allows admin to view , edit , create , delete and export customers.
                         </p>
-                        <!-- <h5>Customer Interface:</h5>
-                        <div class="simplelightbox-gallery row mb-3">
-                            <div class="col-12 col-md-3 mb-3">
-                                <a href="assets/images/list-customers.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/list-customers.png" alt="" title="Customer List" /></a>
-                            </div>
-                            <div class="col-12 col-md-3 mb-3">
-                                <a href="assets/images/add-customers.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/add-customers.png" alt="" title="Add Customer Form" /></a>
-                            </div>
-                            <div class="col-12 col-md-3 mb-3">
-                                <a href="assets/images/edit-customer.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/edit-customer.png" alt="" title="Edit Customer" /></a>
-                            </div>
-                            <div class="col-12 col-md-3 mb-3">
-                                <a href="assets/images/view-customer.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/view-customer.png" alt="" title="View Customer" /></a>
-                            </div>
-                        </div> -->
-                        <h3>User Manual</h3>
-                        <p>The User manual will guide you how to use an application</p>
+                        <h3>Customer Manual</h3>
+                        <p>The manual will help user to guide with instructions.</p>
                         <section id="addCustomer">
                             <h6>Steps to Add Customer</h6>
                             <div class="table-responsive my-4">
@@ -413,57 +392,226 @@
                                                         href="assets/images/Step-2_Export_Customer.png"><img
                                                             class="figure-img img-fluid shadow rounded"
                                                             src="assets/images/Step-2_Export_Customer.png" alt=""
-                                                            title="Edit Customer" /></a></div>
+                                                            title="Export Customer" /></a></div>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </section>
-                        <p>
-                            From View customer admin can see all the activities of customer like their personal details,
-                            interests,
-                            activities, courses, subscriptions, certificates, payments, reviews and devices.
-                        </p>
-                        <p>
-                            From Certificates section user can view or download the certificate.
-                        </p>
-                        <h5>View Customer Interface:</h5>
-                        <div class="simplelightbox-gallery row mb-3">
-                            <div class="col-12 col-md-4 mb-3">
-                                <a href="assets/images/overview-customer.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/overview-customer.png" alt="" title="Overview" /></a>
+                        <section id="deleteCustomer">
+                            <h6>Steps to Delete Customer</h6>
+                            <p>Admin can delete customer by following two ways</p>
+                            <div class="table-responsive my-4">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Method 1 Step</th>
+                                            <th scope="col">Description</th>
+                                            <th scope="col">Interface</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Click on Delete icon </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-1_1_Delete_Customer.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-1_1_Delete_Customer.png" alt=""
+                                                            title="Delete Customer" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Click on Yes, Delete it! button to delete customer</td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-2_1_Delete_Customer.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-2_1_Delete_Customer.png" alt=""
+                                                            title="Delete Customer" /></a></div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Method 2 Step</th>
+                                            <th scope="col">Description</th>
+                                            <th scope="col">Interface</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Select customers you want to remove from list </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-1_2_Delete_Customer.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-1_2_Delete_Customer.png" alt=""
+                                                            title="Delete Customer" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Click on Delete icon to delete customers</td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-2_2_Delete_Customer.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-2_2_Delete_Customer.png" alt=""
+                                                            title="Delete Customer" /></a></div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                            <div class="col-12 col-md-4 mb-3">
-                                <a href="assets/images/activities-customer.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/activities-customer.png" alt="" title="Activities" /></a>
+                        </section>
+                        <section id="viewCustomer">
+                            <h6>Steps to View Customer</h6>
+                            <p>From View customer admin can see all the activities of customer like their
+                                personal details, interests, activities, courses, subscriptions,
+                                certificates, payments, reviews and devices.</p>
+                            <div class="table-responsive my-4">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Step</th>
+                                            <th scope="col">Description</th>
+                                            <th scope="col">Interface</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Click on view icon </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-1_View_Customer.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-1_View_Customer.png" alt=""
+                                                            title="View Customer" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Can see the Overview of customer</td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-2_View_Customer.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-2_View_Customer.png" alt=""
+                                                            title="Customer Overview" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>To view Customer Activities click on Activities </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-3_View_Customer_Activities.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-3_View_Customer_Activities.png"
+                                                            alt="" title="Customer Activities" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>To view Customer Course click on Courses </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-3_View_Customer_Courses.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-3_View_Customer_Courses.png" alt=""
+                                                            title="Customer Course" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>To view Customer Subscriptions click on Subscription </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-3_View_Customer_Subscription.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-3_View_Customer_Subscription.png"
+                                                            alt="" title="Customer Subscription" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>To view Customer Certificates click on Certificate </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-3_View_Customer_Certificate.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-3_View_Customer_Certificate.png"
+                                                            alt="" title="Customer Certificate" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>To view Customer Payment history click on Payment </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-3_View_Customer_Payment.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-3_View_Customer_Payment.png" alt=""
+                                                            title="Customer Payment" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>To view Customer Review click on Review </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-3_View_Customer_Review.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-3_View_Customer_Review.png" alt=""
+                                                            title="Customer Review" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>To view Customer Devices click on Devices </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-3_View_Customer_Devices.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-3_View_Customer_Devices.png" alt=""
+                                                            title="Customer Devices" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>To view Customer Certificate click on icon and View From option </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-4_View_Customer_Certificate.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-4_View_Customer_Certificate.png" alt=""
+                                                            title="View Customer Certificate" /></a></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>To download Customer Certificate click on icon and Download From option </td>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Step-4_View_Customer_Download_Certificate.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Step-4_View_Customer_Download_Certificate.png" alt=""
+                                                            title="Download Customer Certificate" /></a></div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                            <div class="col-12 col-md-4 mb-3">
-                                <a href="assets/images/subscriptions-customer.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/subscriptions-customer.png" alt=""
-                                        title="Subscriptions" /></a>
-                            </div>
-                        </div>
-                        <div class="simplelightbox-gallery row mb-3">
-                            <div class="col-12 col-md-4 mb-3">
-                                <a href="assets/images/certificates-customer.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/certificates-customer.png" alt="" title="Certificates" /></a>
-                            </div>
-                            <div class="col-12 col-md-4 mb-3">
-                                <a href="assets/images/payment-customer.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/payment-customer.png" alt="" title="Payment history" /></a>
-                            </div>
-                            <div class="col-12 col-md-3 mb-3">
-                                <a href="assets/images/devices-customer.png"><img
-                                        class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/devices-customer.png" alt="" title="Devices" /></a>
-                            </div>
-                        </div>
+                        </section>
                     </section>
                 </article>
             </div>
