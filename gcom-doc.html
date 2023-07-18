@@ -69,6 +69,10 @@
                     </li>
 
                     <li class="nav-item section-title"><a class="nav-link scrollto" href="#dashboard">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#customerDashboard">Customer Dashboard</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#salesDashboard">Sales Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#courseDashboard">Course Dashboard</a></li>
                     <li class="nav-item section-title"><a class="nav-link scrollto" href="#customer">Customer</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#addCustomer">Add Customer</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#editCustomer">Edit Customer</a></li>
@@ -97,6 +101,9 @@
                     <li class="nav-item"><a class="nav-link scrollto" href="#viewPayment">View Payment</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#exportPayment">Export Payment</a></li>
                     <li class="nav-item section-title"><a class="nav-link scrollto" href="#report">Report</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#userReport">User Report</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#salesReport">Sales Report</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#courseReport">Course Report</a></li>
                     <!-- <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span
                                 class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Modules</a>
                     </li> -->
@@ -164,107 +171,238 @@
                     <section class="docs-section" id="dashboard">
                         <h2 class="section-heading">Dashboard</h2>
                         <p>The Dashboard module allows admin to view dashboard of sales, customer and course.</p>
-                        <h5>Dashboard View:</h5>
-                        <div class="simplelightbox-gallery row mb-3">
-                            <div class="col-12 col-md-4 mb-3">
-                                <a href="assets/images/course.png"><img class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/course.png" alt="" title="Course Dashboard" /></a>
-                            </div>
-                            <div class="col-12 col-md-4 mb-3">
-                                <a href="assets/images/sales.png"><img class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/sales.png" alt="" title="Sales Dashboard" /></a>
-                            </div>
-                            <div class="col-12 col-md-4 mb-3">
-                                <a href="assets/images/customer.png"><img class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/customer.png" alt="" title="Customer Dashboard" /></a>
-                            </div>
+                        <div class="simplelightbox-gallery"><a href="assets/images/Dashboard_List.png"><img
+                                    class="figure-img img-fluid shadow rounded" src="assets/images/Dashboard_List.png"
+                                    alt="" title="Dashboards" /></a>
                         </div>
-                        <h6 class="mt-3">Customer Dashboard </h6>
-                        <p>The customer dashboard shows the analytics data of customers.</p>
-                        <div class="table-responsive my-4">
-                            <table class="table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Fields</th>
-                                        <th scope="col">Description</th>
-                                        <th scope="col">Image</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Total</th>
-                                        <td>Shows total number of customers</td>
-                                        <td><img src="assets/images//total-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">New</th>
-                                        <td>Shows number of new customers </td>
-                                        <td><img src="assets/images//new-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Repeat</th>
-                                        <td>Shows number of repeat customers </td>
-                                        <td><img src="assets/images//repeat-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Drop</th>
-                                        <td>Shows number of drop customers </td>
-                                        <td><img src="assets/images//dropoff-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">LTV</th>
-                                        <td>Shows LTV of customers of last three years in graph form</td>
-                                        <td><img src="assets/images//ltv-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Social</th>
-                                        <td>Shows customers ratio based on social profiles like facebbok, google and
-                                            instagram</td>
-                                        <td><img src="assets/images//social-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Active</th>
-                                        <td>Shows list of top active customers</td>
-                                        <td><img src="assets/images//active-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Device</th>
-                                        <td>Shows list of customers by device</td>
-                                        <td><img src="assets/images//device-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Country</th>
-                                        <td>Shows list of customers by country</td>
-                                        <td><img src="assets/images//country-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Sessions</th>
-                                        <td>Shows list of customer sessions by country and sessions number</td>
-                                        <td><img src="assets/images//sessions-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">New Per Month</th>
-                                        <td>Shows graph of new customers by month</td>
-                                        <td><img src="assets/images//new-graph-customers.png" /></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Drop off Graph</th>
-                                        <td>Shows drop off of customers by month</td>
-                                        <td><img src="assets/images//dropoff-graph-customers.png" /></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <h6 class="mt-3">Sales Dashboard </h6>
-                        <p>The Sales dashboard shows the sales ratio data through pictorial representation.</p>
-                        <div class="simplelightbox-gallery row mb-3">
-                            <div class="col-12 col-md-4 mb-3">
-                                <a href="assets/images/sales-dashboard.png"><img
+                        <section id="customerDashboard" class="mt-3">
+                            <h4>Customer Dashboard</h4>
+                            <p>Customer dashboard shows the overview of customers in numbers and by
+                                pictorial representation like bar graph, line charts and pie charts.
+                                It helps admin to figure out the data of customers, increase and decrease and many more.
+                                Below image shows the Customer dashboard view :
+                            </p>
+                            <div class="simplelightbox-gallery"><a href="assets/images/Customer_Dashboard.png"><img
                                         class="figure-img img-fluid shadow rounded"
-                                        src="assets/images/sales-dashboard.png" alt="" title="Sales Dashboard" /></a>
+                                        src="assets/images/Customer_Dashboard.png" alt=""
+                                        title="Customer Dashboard " /></a>
                             </div>
-                        </div>
-
+                            <p>Below table describes the data seen on Customer dashboard</p>
+                            <div class="table-responsive my-4">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Shows total number of customers</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Shows number of new customers</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Shows number of repeat customers</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Shows number of drop customers</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Shows LTV of customers of last three years in graph form</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Shows customers ratio based on social profiles like facebbok, google and
+                                                instagram</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td>Shows list of top active customers</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">8</th>
+                                            <td>Shows list of customers by device</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">9</th>
+                                            <td>Shows list of customers by country</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">10</th>
+                                            <td>Shows list of customer sessions by country and sessions number</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">11</th>
+                                            <td>Shows graph of new customers by month</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">12</th>
+                                            <td>Shows drop off of customers by month</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <section id="salesDashboard" class="mt-3">
+                            <h4>Sales Dashboard</h4>
+                            <p>Sales dashboard shows the overview of sales in numbers and by
+                                pictorial representation
+                                It helps admin to figure out the sales, revenue and expense by month or year.
+                                Below image shows the Sales dashboard view :
+                            </p>
+                            <div class="simplelightbox-gallery"><a href="assets/images/Sales_Dashboard.png"><img
+                                        class="figure-img img-fluid shadow rounded"
+                                        src="assets/images/Sales_Dashboard.png" alt="" title="Sales Dashboard " /></a>
+                            </div>
+                            <p>Below table describes the data seen on Sales dashboard</p>
+                            <div class="table-responsive my-4">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Shows number of courses sold</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Shows number of active subscription</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Shows number of total revenue</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Shows amount of average order</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Shows % of conversion rate</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Shows number of revenue per month</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td>Shows revenue by course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">8</th>
+                                            <td>Shows revenue by subscription</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">9</th>
+                                            <td>Shows revenue by year</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">10</th>
+                                            <td>Shows earning by location</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">11</th>
+                                            <td>Shows earning by course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">12</th>
+                                            <td>Shows value of average order</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">13</th>
+                                            <td>Shows conversion rates</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">14</th>
+                                            <td>Shows top 5 course on Quarterly basis</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">15</th>
+                                            <td>Shows Revenue by country</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <section id="courseDashboard" class="mt-3">
+                            <h4>Course Dashboard</h4>
+                            <p>Course dashboard shows the analytics of courses through pictorial representation.
+                                It helps admin to figure out which courses are most sold and which are least sold.
+                            </p>
+                            <div class="simplelightbox-gallery"><a href="assets/images/Course_Dashboard.png"><img
+                                        class="figure-img img-fluid shadow rounded"
+                                        src="assets/images/Course_Dashboard.png" alt=""
+                                        title="Course Dashboard " /></a>
+                            </div>
+                            <p>Below table describes the data seen on Course dashboard</p>
+                            <div class="table-responsive my-4">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Shows total number of course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Shows number of new course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Shows number of customer rating </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Shows number of total purcahses</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Shows list of best selling course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Shows list of least selling course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td>Shows list of most viewed course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">8</th>
+                                            <td>Shows list of least viewed course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">9</th>
+                                            <td>Shows list of most rated course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">10</th>
+                                            <td>Shows list of least rated course</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">11</th>
+                                            <td>Shows list of recently purchased course</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
                     </section><!--//dashboard-->
 
                     <section class="docs-section" id="customer">
@@ -1052,7 +1190,7 @@
                     </section><!--//course-->
 
                     <section class="docs-section" id="subscription">
-                        <h2 class="section-heading">Course</h2>
+                        <h2 class="section-heading">Subscription</h2>
                         <p>The Subscription module allows admin to manage Subscriptions.
                         </p>
                         <section id="addSubscription">
@@ -1365,6 +1503,233 @@
 
                     </section><!--//payment-->
 
+                    <section class="docs-section" id="report">
+                        <h2 class="section-heading">Report</h2>
+                        <p>The Report module allows admin to view report of Users, Sales and Course from various
+                            options.
+                        </p>
+                        <div class="simplelightbox-gallery"><a href="assets/images/Report_List.png"><img
+                                    class="figure-img img-fluid shadow rounded" src="assets/images/Report_List.png"
+                                    alt="" title="Reports" /></a>
+                        </div>
+                        <section id="userReport">
+                            <h4>User Report</h4>
+                            <p>Admin can see user reports by following
+                            </p>
+                            <div class="table-responsive my-4">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Report By</th>
+                                            <th scope="col">Interface</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Total Number of Active User </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/User_Report_Total_Active.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/User_Report_Total_Active.png" alt=""
+                                                            title="Total Number of Active Users" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Total Number of Registered Users </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/User_Report_Total_Registered.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/User_Report_Total_Registered.png" alt=""
+                                                            title=" Number of Registered Users" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"> Number of Subscribed Users </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/User_Report_Total_Subscribed.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/User_Report_Total_Subscribed.png" alt=""
+                                                            title=" Number of Subscribed Users" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Increase in YoY/MoM User </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/User_Report_Increase_YoY_MoM.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/User_Report_Increase_YoY_MoM.png" alt=""
+                                                            title="Increase in YoY/MoM User" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"> User By Country </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/User_Report_Country.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/User_Report_Country.png" alt=""
+                                                            title="User by Country" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+                        <section id="salesReport">
+                            <h4>Sales Report</h4>
+                            <p>Admin can see sales reports by following
+                            </p>
+                            <div class="table-responsive my-4">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Report By</th>
+                                            <th scope="col">Interface</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Total Revenue received in this month </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Sales_Report_Total_Revenue_Month.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Sales_Report_Total_Revenue_Month.png"
+                                                            alt="" title="Total Revenue received in this month" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Graph AOV in past month to this month </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Sales_Report_Graph_AOV.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Sales_Report_Graph_AOV.png" alt=""
+                                                            title="Graph AOV in past month to this month" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"> Annual Sales Report </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Sales_Report_Annual_Sales.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Sales_Report_Annual_Sales.png" alt=""
+                                                            title="Annual Sales Report" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Annual Revenue Report </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Sales_Report_Annual_Revenue.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Sales_Report_Annual_Revenue.png" alt=""
+                                                            title="Annual Revenue Report" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"> Increase in Order Value </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Sales_Report_Increase_In_Value.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Sales_Report_Increase_In_Value.png"
+                                                            alt="" title="Increase in Order Value" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <section id="courseReport">
+                            <h4>Course Report</h4>
+                            <p>Admin can see course reports by following
+                            </p>
+                            <div class="table-responsive my-4">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Report By</th>
+                                            <th scope="col">Interface</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Most Popular Course </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Course_Report_Most_Popular.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Course_Report_Most_Popular.png" alt=""
+                                                            title="Most Popular Course" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Most Reviewed Course </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Course_Report_Most_Reviewed.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Course_Report_Most_Reviewed.png" alt=""
+                                                            title="Most Reviewed Course" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Top 5 Most Consumed Course </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Course_Report_Top_Consumed.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Course_Report_Top_Consumed.png" alt=""
+                                                            title="Top 5  Most Consumed Courset" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Least Popular Course </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Course_Report_Least_Popular.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Course_Report_Least_Popular.png" alt=""
+                                                            title="Least popular Course" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Most Purchased Course </th>
+                                            <td>
+                                                <div class="simplelightbox-gallery"><a
+                                                        href="assets/images/Course_Report_Most_Purchased.png"><img
+                                                            class="figure-img img-fluid shadow rounded"
+                                                            src="assets/images/Course_Report_Most_Purchased.png" alt=""
+                                                            title="Most Purchased Course" /></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                    </section><!--//report-->
                 </article>
             </div>
         </div>
